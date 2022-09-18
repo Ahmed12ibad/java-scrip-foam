@@ -69,7 +69,7 @@ function submit() {
     arr.push(object)
         // window.setTimeout(function(){
             localStorage.setItem("information",JSON.stringify(arr))
-            // window.location ="print.html"
+            // window.location="print.html"
         // },2000)
             // console.log("uroobamisbah");
  
