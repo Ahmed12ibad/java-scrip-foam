@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="index.css">
+        <!-- <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js">
+    </head> -->
+
+<body>
+
+    <div class="container">
+        <div  id="form">
+            <center>
+                
+            <input type="text" id="name" placeholder="Enter your name"><br>
+            <input type="text" id="father-name" placeholder="Enter your father name"><br>
+            <input type="email" id="email" placeholder="Enter your email"><br>
+            <input type="number" id="cnic" placeholder="Enter your cnic number"><br>
+            <input type="number" id="phone-number" placeholder="enter your phone number"><br>
+            <input type="radio"name="a"  id="male" value="male"   > MALE
+            <input type="radio" name="a" id="female" value="female" > FEMALE <br>
+            <label for="country">Choose a city:</label><br>
+
+            <select name="country" id="country">
+                <!-- <option  disabled>select</option> -->
+                <option >  </option>
+                <option  >Karachi</option>
+                <option >Lahore</option>
+                <option  >Islamabad</option>
+                <option >Quetta</option>
+                <option  >peshawar</option>
+                <option >multan</option>
+                <option>Other</option>
+            </select><br>
+
+            <label for="Progamming">Choose a Progamming languages:</label><br>
+
+            <select name="Programing" id="Programing">
+                <!-- <option  disabled>select</option> -->
+                <option >  </option>
+                <option  >java script</option>
+                <option >c++</option>
+                <option  >java</option>
+                <option >php</option>
+                <option  >blockchain</option>
+                <option> c#</option>
+                <option>Other</option>
+            </select><br>
+            <input type="submit" value="Submit" onclick="submit ( )"><br>
+            <!-- <button onclick="admin()">admin page</button>  -->
+        </center>
+        </div>
+    </div>
+
+    <!-- <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> -->
+</body>
+
+<script src="app.js"></script>
+<script src="print.js"></script>
+</html>
