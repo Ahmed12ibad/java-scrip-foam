@@ -11,13 +11,13 @@ var ahmed =
  `<tr class="tr">
  <td>${arr1[i].name}
 </td>
-<td>${arr1[i].father}
+<td>${arr1[i].father} 
  </td>
 <td>${arr1[i].email}
  </td>
-<td>${arr1[i].cnic}
+<td>${arr1[i].phone}
  </td>
-<td>${arr1[i].phone} 
+<td>${arr1[i].programing} 
 </td>
 <td>${arr1[i].city_name}
  </td>
